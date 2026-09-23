@@ -24,3 +24,4 @@ CREATE TABLE questions (
     FOREIGN KEY (topic_id)
         REFERENCES topics(topic_id)
 );
+
